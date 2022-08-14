@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_IR_y0Om_Eeyl6rp8kebvXQ" name="MajorProject">
+    <eAnnotations xmi:id="_JXe0MOm_Eeyl6rp8kebvXQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_JXgpYOm_Eeyl6rp8kebvXQ" source="codegen">
+        <details xmi:id="_JXgpYem_Eeyl6rp8kebvXQ" key="codegenDirectory" value="/MajorProject/src/main/java"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_J37O0Om_Eeyl6rp8kebvXQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_J3714Om_Eeyl6rp8kebvXQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_J38c8Om_Eeyl6rp8kebvXQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_J38c8em_Eeyl6rp8kebvXQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_J38c8um_Eeyl6rp8kebvXQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_J39EAOm_Eeyl6rp8kebvXQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_J39EAem_Eeyl6rp8kebvXQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_J39EAum_Eeyl6rp8kebvXQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_J3-5MOm_Eeyl6rp8kebvXQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_J2S3IOm_Eeyl6rp8kebvXQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_J2UFQOm_Eeyl6rp8kebvXQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_J93ewOm_Eeyl6rp8kebvXQ" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_J2VTYOm_Eeyl6rp8kebvXQ" name="sql">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_J957AOm_Eeyl6rp8kebvXQ" name="Connection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_J97wMem_Eeyl6rp8kebvXQ" name="DriverManager"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_J99lYem_Eeyl6rp8kebvXQ" name="PreparedStatement"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_J-AosOm_Eeyl6rp8kebvXQ" name="ResultSet"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_J3H9kOm_Eeyl6rp8kebvXQ" name="util"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_J2XIkOm_Eeyl6rp8kebvXQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_J2XIkem_Eeyl6rp8kebvXQ" name="servlet">
+        <packagedElement xmi:type="uml:Package" xmi:id="_J2Y9wOm_Eeyl6rp8kebvXQ" name="http">
+          <packagedElement xmi:type="uml:Class" xmi:id="_J-ETEOm_Eeyl6rp8kebvXQ" name="HttpServlet"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_J-GIQOm_Eeyl6rp8kebvXQ" name="HttpServletRequest"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_J-IkgOm_Eeyl6rp8kebvXQ" name="HttpServletResponse"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_J-Jyoem_Eeyl6rp8kebvXQ" name="HttpSession"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_J-B20Om_Eeyl6rp8kebvXQ" name="ServletException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_J2ay8Om_Eeyl6rp8kebvXQ" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_J2ay8em_Eeyl6rp8kebvXQ" name="paypal">
+        <packagedElement xmi:type="uml:Package" xmi:id="_J2ay8um_Eeyl6rp8kebvXQ" name="base">
+          <packagedElement xmi:type="uml:Package" xmi:id="_J2baAOm_Eeyl6rp8kebvXQ" name="rest">
+            <packagedElement xmi:type="uml:Class" xmi:id="_J-LAwem_Eeyl6rp8kebvXQ" name="PayPalRESTException"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_J2xYQOm_Eeyl6rp8kebvXQ" name="api">
+          <packagedElement xmi:type="uml:Package" xmi:id="_J2x_UOm_Eeyl6rp8kebvXQ" name="payments">
+            <packagedElement xmi:type="uml:Class" xmi:id="_J-P5QOm_Eeyl6rp8kebvXQ" name="PayerInfo"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_J-S8kOm_Eeyl6rp8kebvXQ" name="Payment"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_J-UKsem_Eeyl6rp8kebvXQ" name="Transaction"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_J-eiwOm_Eeyl6rp8kebvXQ" name="CartBase"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_J-fw4em_Eeyl6rp8kebvXQ" name="ShippingAddress"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_J-1IEOm_Eeyl6rp8kebvXQ" name="Payer"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_J-29Qem_Eeyl6rp8kebvXQ" name="RedirectUrls"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_J30hIOm_Eeyl6rp8kebvXQ" name="AuthorizePaymentServle">
+      <ownedComment xmi:id="_KBv5MOm_Eeyl6rp8kebvXQ">
+        <body>Servlet implementation class AuthorizePaymentServle</body>
+      </ownedComment>
+      <generalization xmi:id="_J-vBcOm_Eeyl6rp8kebvXQ" general="_J-ETEOm_Eeyl6rp8kebvXQ"/>
+      <ownedAttribute xmi:id="_J_jg0Om_Eeyl6rp8kebvXQ" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_J_kH4Om_Eeyl6rp8kebvXQ" value="1L"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KA7Z0Om_Eeyl6rp8kebvXQ" name="AuthorizePaymentServle" specification="_J4AHUOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KA9PAOm_Eeyl6rp8kebvXQ" type="_J30hIOm_Eeyl6rp8kebvXQ" direction="return"/>
+        <language>java</language>
+        <body>super();&#xD;
+     // TODO Auto-generated constructor stub&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBVpgOm_Eeyl6rp8kebvXQ" name="doGet" specification="_J-r-IOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBVpgem_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_KBVpgum_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        <language>java</language>
+        <body>HttpSession ss=request.getSession();&#xD;
+		&#xD;
+	&#xD;
+		String qr=String.valueOf(ss.getAttribute(&quot;pqt&quot;));&#xD;
+		String pid=(String)ss.getAttribute(&quot;pid&quot;);&#xD;
+		String guid=(String)ss.getAttribute(&quot;currentuser&quot;);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		Connection conn=null;&#xD;
+		ResultSet rs=null;&#xD;
+		PreparedStatement ps=null;&#xD;
+		&#xD;
+		String pname=&quot;&quot;;&#xD;
+		int price=0;&#xD;
+//		String query1=&quot;select P.pid,O.sid,P.price from inventory o,product p where p.pid=? and p.pid=o.pid&quot;;&#xD;
+		String query1=&quot;select p.pname,p.price from product p where p.pid=?&quot;;&#xD;
+&#xD;
+		try{&#xD;
+			Class.forName(&quot;com.mysql.jdbc.Driver&quot;);&#xD;
+			conn=DriverManager.getConnection(&quot;jdbc:mysql://localhost:3306/drugdatabase&quot;,&quot;root&quot;,&quot;Change@3011&quot;);&#xD;
+			ps=conn.prepareStatement(query1);&#xD;
+			ps.setString(1,pid);&#xD;
+			rs=ps.executeQuery();&#xD;
+			if(rs.next())&#xD;
+			{&#xD;
+				pname=rs.getString(&quot;pname&quot;);&#xD;
+				price=rs.getInt(&quot;price&quot;);&#xD;
+				&#xD;
+//			 response.sendRedirect(&quot;authorize_payment&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+		catch(Exception E)&#xD;
+		{&#xD;
+			System.out.println(E);&#xD;
+		}&#xD;
+		finally {&#xD;
+			  	try { if (rs != null) rs.close(); } catch (Exception e) {};&#xD;
+			  	try { if (ps != null) ps.close(); } catch (Exception e) {};&#xD;
+				try { if (conn != null) conn.close(); } catch (Exception e) {};&#xD;
+		}&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		  &#xD;
+		   String pNames=pname ;&#xD;
+        int pTotal= price*(Integer.parseInt(qr));&#xD;
+         String subtotal =(Integer.toString(pTotal));&#xD;
+    String shipping =      &quot;50&quot;;//                    request.getParameter(&quot;shipping&quot;);&#xD;
+    String tax =           &quot;4&quot;;//                       request.getParameter(&quot;tax&quot;);&#xD;
+&#xD;
+  &#xD;
+  String total= Double.toString(  Double.parseDouble(subtotal) + 54);&#xD;
+  &#xD;
+  &#xD;
+    OrderDetail orderDetail = new OrderDetail(pNames, subtotal, shipping, tax, total);&#xD;
+  &#xD;
+		&#xD;
+		&#xD;
+ &#xD;
+     try {&#xD;
+         PaymentServices paymentServices = new PaymentServices();&#xD;
+         String approvalLink = paymentServices.authorizePayment(orderDetail);&#xD;
+ &#xD;
+         response.sendRedirect(approvalLink);&#xD;
+          &#xD;
+     } catch (PayPalRESTException ex) {&#xD;
+         request.setAttribute(&quot;errorMessage&quot;, ex.getMessage());&#xD;
+         ex.printStackTrace();&#xD;
+         request.getRequestDispatcher(&quot;error.jsp&quot;).forward(request, response);&#xD;
+     }&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBWQkOm_Eeyl6rp8kebvXQ" name="doPost" specification="_J-tzUOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBW3oOm_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_KBW3oem_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        <language>java</language>
+        <body>// TODO Auto-generated method stub&#xD;
+		doGet(request, response);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_J4AHUOm_Eeyl6rp8kebvXQ" name="AuthorizePaymentServle" method="_KA7Z0Om_Eeyl6rp8kebvXQ">
+        <eAnnotations xmi:id="_J4J4UOm_Eeyl6rp8kebvXQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_J4J4Uem_Eeyl6rp8kebvXQ" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_J4KfYOm_Eeyl6rp8kebvXQ" type="_J30hIOm_Eeyl6rp8kebvXQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J-r-IOm_Eeyl6rp8kebvXQ" name="doGet" visibility="protected" method="_KBVpgOm_Eeyl6rp8kebvXQ" raisedException="_J-B20Om_Eeyl6rp8kebvXQ _J93ewOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J-r-Iem_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_J-r-Ium_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J-tzUOm_Eeyl6rp8kebvXQ" name="doPost" visibility="protected" method="_KBWQkOm_Eeyl6rp8kebvXQ" raisedException="_J-B20Om_Eeyl6rp8kebvXQ _J93ewOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J-uaYOm_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_J-uaYem_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_J4WFkOm_Eeyl6rp8kebvXQ" name="ExecutePaymentServlet">
+      <ownedComment xmi:id="_KBwgQOm_Eeyl6rp8kebvXQ">
+        <body>Servlet implementation class ExecutePaymentServlet</body>
+      </ownedComment>
+      <generalization xmi:id="_J-yr0em_Eeyl6rp8kebvXQ" general="_J-ETEOm_Eeyl6rp8kebvXQ"/>
+      <ownedAttribute xmi:id="_J_ku8Om_Eeyl6rp8kebvXQ" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_J_lWAOm_Eeyl6rp8kebvXQ" value="1L"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBZ68Om_Eeyl6rp8kebvXQ" name="ExecutePaymentServlet" specification="_J4X6wOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBZ68em_Eeyl6rp8kebvXQ" type="_J4WFkOm_Eeyl6rp8kebvXQ" direction="return"/>
+        <language>java</language>
+        <body>super();&#xD;
+     // TODO Auto-generated constructor stub&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBZ68um_Eeyl6rp8kebvXQ" name="doGet" specification="_J-w2oOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBZ68-m_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_KBZ69Om_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        <language>java</language>
+        <body>String paymentId = request.getParameter(&quot;paymentId&quot;);&#xD;
+String payerId = request.getParameter(&quot;PayerID&quot;);&#xD;
+&#xD;
+try {&#xD;
+    PaymentServices paymentServices = new PaymentServices();&#xD;
+    Payment payment = paymentServices.executePayment(paymentId, payerId);&#xD;
+     &#xD;
+    PayerInfo payerInfo = payment.getPayer().getPayerInfo();&#xD;
+    Transaction transaction = (Transaction) payment.getTransactions().get(0);&#xD;
+     &#xD;
+    request.setAttribute(&quot;payer&quot;, payerInfo);&#xD;
+    request.setAttribute(&quot;transaction&quot;, transaction);          &#xD;
+&#xD;
+    request.getRequestDispatcher(&quot;receipt.jsp&quot;).forward(request, response);&#xD;
+     &#xD;
+} catch (PayPalRESTException ex) {&#xD;
+    request.setAttribute(&quot;errorMessage&quot;, ex.getMessage());&#xD;
+    ex.printStackTrace();&#xD;
+    request.getRequestDispatcher(&quot;error.jsp&quot;).forward(request, response);&#xD;
+}&#xD;
+    &#xD;
+    &#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBaiAOm_Eeyl6rp8kebvXQ" name="doPost" specification="_J-yEwOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBaiAem_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_KBaiAum_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        <language>java</language>
+        <body>// TODO Auto-generated method stub&#xD;
+		doGet(request, response);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_J4X6wOm_Eeyl6rp8kebvXQ" name="ExecutePaymentServlet" method="_KBZ68Om_Eeyl6rp8kebvXQ">
+        <eAnnotations xmi:id="_J4Zv8Om_Eeyl6rp8kebvXQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_J4Zv8em_Eeyl6rp8kebvXQ" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_J4Zv8um_Eeyl6rp8kebvXQ" type="_J4WFkOm_Eeyl6rp8kebvXQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J-w2oOm_Eeyl6rp8kebvXQ" name="doGet" visibility="protected" method="_KBZ68um_Eeyl6rp8kebvXQ" raisedException="_J-B20Om_Eeyl6rp8kebvXQ _J93ewOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J-xdsOm_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_J-xdsem_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J-yEwOm_Eeyl6rp8kebvXQ" name="doPost" visibility="protected" method="_KBaiAOm_Eeyl6rp8kebvXQ" raisedException="_J-B20Om_Eeyl6rp8kebvXQ _J93ewOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J-yEwem_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_J-yr0Om_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_J4hrwOm_Eeyl6rp8kebvXQ" name="OrderDetail">
+      <ownedAttribute xmi:id="_J_mkIOm_Eeyl6rp8kebvXQ" name="productName" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_J_10sOm_Eeyl6rp8kebvXQ" name="subtotal" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_J_6GIOm_Eeyl6rp8kebvXQ" name="shipping" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_J_8iYOm_Eeyl6rp8kebvXQ" name="tax" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_J__lsOm_Eeyl6rp8kebvXQ" name="total" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBezcOm_Eeyl6rp8kebvXQ" name="OrderDetail" specification="_J4mkQOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBezcem_Eeyl6rp8kebvXQ" name="productName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_KBezcum_Eeyl6rp8kebvXQ" name="subtotal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_KBezc-m_Eeyl6rp8kebvXQ" name="shipping">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_KBezdOm_Eeyl6rp8kebvXQ" name="tax">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_KBezdem_Eeyl6rp8kebvXQ" name="total">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_KBezdum_Eeyl6rp8kebvXQ" type="_J4hrwOm_Eeyl6rp8kebvXQ" direction="return"/>
+        <language>java</language>
+        <body>this.productName = productName;&#xD;
+     this.subtotal = Float.parseFloat(subtotal);&#xD;
+     this.shipping = Float.parseFloat(shipping);&#xD;
+     this.tax = Float.parseFloat(tax);&#xD;
+     this.total = Float.parseFloat(total);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_J4mkQOm_Eeyl6rp8kebvXQ" name="OrderDetail" method="_KBezcOm_Eeyl6rp8kebvXQ">
+        <eAnnotations xmi:id="_J4nLVOm_Eeyl6rp8kebvXQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_J4nyYOm_Eeyl6rp8kebvXQ" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_J4mkQem_Eeyl6rp8kebvXQ" name="productName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_J4nLUOm_Eeyl6rp8kebvXQ" name="subtotal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_J4nLUem_Eeyl6rp8kebvXQ" name="shipping">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_J4nLUum_Eeyl6rp8kebvXQ" name="tax">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_J4nLU-m_Eeyl6rp8kebvXQ" name="total">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_J4nyYem_Eeyl6rp8kebvXQ" type="_J4hrwOm_Eeyl6rp8kebvXQ" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_J4q1sOm_Eeyl6rp8kebvXQ" name="PaymentServices">
+      <ownedAttribute xmi:id="_KACB8Om_Eeyl6rp8kebvXQ" name="CLIENT_ID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_KACpAOm_Eeyl6rp8kebvXQ" value="&quot;Ab4EVKRcyXzFLKFfDFMh0kwqHp6hlZ-PNM47VKa0bT6_BchGGfGZgBvcexTGEnUNms3LW_Q0ysBaHyt5&quot;"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KADQEOm_Eeyl6rp8kebvXQ" name="CLIENT_SECRET" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_KADQEem_Eeyl6rp8kebvXQ" value="&quot;EJ6C11w-7uzsoW4eHQHqCPfHfHeIJMymuiFYLe0Ly3mIwKYJjJRcyth0v7f36KbYaKWTuEBcvEZ5ayI0&quot;"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KAD3IOm_Eeyl6rp8kebvXQ" name="MODE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_KAD3Iem_Eeyl6rp8kebvXQ" value="&quot;sandbox&quot;"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBfagOm_Eeyl6rp8kebvXQ" name="authorizePayment" specification="_J-ZqQOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBfagem_Eeyl6rp8kebvXQ" name="orderDetail" type="_J4hrwOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_KBfagum_Eeyl6rp8kebvXQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Payer payer = getPayerInformation();&#xD;
+     RedirectUrls redirectUrls = getRedirectURLs();&#xD;
+     List&lt;Transaction> listTransaction = getTransactionInformation(orderDetail);&#xD;
+      &#xD;
+     Payment requestPayment = new Payment();&#xD;
+     requestPayment.setTransactions(listTransaction);&#xD;
+     requestPayment.setRedirectUrls(redirectUrls);&#xD;
+     requestPayment.setPayer(payer);&#xD;
+     requestPayment.setIntent(&quot;authorize&quot;);&#xD;
+ &#xD;
+     APIContext apiContext = new APIContext(CLIENT_ID, CLIENT_SECRET, MODE);&#xD;
+ &#xD;
+     Payment approvedPayment = requestPayment.create(apiContext);&#xD;
+ &#xD;
+     return getApprovalLink(approvedPayment);&#xD;
+ &#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBhPsOm_Eeyl6rp8kebvXQ" name="getPayerInformation" specification="_J4vHIOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBhPsem_Eeyl6rp8kebvXQ" type="_J-1IEOm_Eeyl6rp8kebvXQ" direction="return"/>
+        <language>java</language>
+        <body>Payer payer = new Payer();&#xD;
+ payer.setPaymentMethod(&quot;paypal&quot;);&#xD;
+  &#xD;
+ PayerInfo payerInfo = new PayerInfo();&#xD;
+ payerInfo.setFirstName(&quot;Ashutosh&quot;)&#xD;
+          .setLastName(&quot;Tripathi&quot;)&#xD;
+          .setEmail(&quot;ashutoshtripathi6937@gmail.com&quot;);&#xD;
+  &#xD;
+ payer.setPayerInfo(payerInfo);&#xD;
+  &#xD;
+ return payer;&#xD;
+</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBh2wOm_Eeyl6rp8kebvXQ" name="getRedirectURLs" specification="_J4w8UOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBh2wem_Eeyl6rp8kebvXQ" type="_J-29Qem_Eeyl6rp8kebvXQ" direction="return"/>
+        <language>java</language>
+        <body>RedirectUrls redirectUrls = new RedirectUrls();&#xD;
+ redirectUrls.setCancelUrl(&quot;http://localhost:8080/Test2/cancel.html&quot;);&#xD;
+ redirectUrls.setReturnUrl(&quot;http://localhost:8080/Test2/review_payment&quot;);&#xD;
+  &#xD;
+ return redirectUrls;&#xD;
+</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBid0Om_Eeyl6rp8kebvXQ" name="getTransactionInformation" specification="_J-a4YOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBid0em_Eeyl6rp8kebvXQ" name="orderDetail" type="_J4hrwOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_KBid0um_Eeyl6rp8kebvXQ" type="_J-UKsem_Eeyl6rp8kebvXQ" isOrdered="true" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KBid0-m_Eeyl6rp8kebvXQ" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Details details = new Details();&#xD;
+ details.setShipping(orderDetail.getShipping());&#xD;
+ details.setSubtotal(orderDetail.getSubtotal());&#xD;
+ details.setTax(orderDetail.getTax());&#xD;
+ &#xD;
+ Amount amount = new Amount();&#xD;
+                                                       amount.setCurrency(&quot;USD&quot;);&#xD;
+ amount.setTotal(orderDetail.getTotal());&#xD;
+ amount.setDetails(details);&#xD;
+ &#xD;
+ Transaction transaction = new Transaction();&#xD;
+ transaction.setAmount(amount);&#xD;
+ transaction.setDescription(orderDetail.getProductName());&#xD;
+  &#xD;
+ ItemList itemList = new ItemList();&#xD;
+ List&lt;Item> items = new ArrayList();&#xD;
+  &#xD;
+ Item item = new Item();&#xD;
+                                                                                         item.setCurrency(&quot;USD&quot;);&#xD;
+ item.setName(orderDetail.getProductName());&#xD;
+ item.setPrice(orderDetail.getSubtotal());&#xD;
+ item.setTax(orderDetail.getTax());&#xD;
+ item.setQuantity(&quot;1&quot;);&#xD;
+  &#xD;
+ items.add(item);&#xD;
+ itemList.setItems(items);&#xD;
+ transaction.setItemList(itemList);&#xD;
+ &#xD;
+ List&lt;Transaction> listTransaction = new ArrayList();&#xD;
+ listTransaction.add(transaction);  &#xD;
+  &#xD;
+ return listTransaction;&#xD;
+</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBid1Om_Eeyl6rp8kebvXQ" name="getApprovalLink" specification="_J-5ZgOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBid1em_Eeyl6rp8kebvXQ" name="approvedPayment" type="_J-S8kOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_KBid1um_Eeyl6rp8kebvXQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>List&lt;Links> links = approvedPayment.getLinks();&#xD;
+ String approvalLink = null;&#xD;
+  &#xD;
+ for (Links link : links) {&#xD;
+     if (link.getRel().equalsIgnoreCase(&quot;approval_url&quot;)) {&#xD;
+         approvalLink = link.getHref();&#xD;
+         break;&#xD;
+     }&#xD;
+ }      &#xD;
+  &#xD;
+ return approvalLink;&#xD;
+</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBjE4Om_Eeyl6rp8kebvXQ" name="getPaymentDetails" specification="_J4yxgOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBjE4em_Eeyl6rp8kebvXQ" name="paymentId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_KBjE4um_Eeyl6rp8kebvXQ" type="_J-S8kOm_Eeyl6rp8kebvXQ" direction="return"/>
+        <language>java</language>
+        <body>APIContext apiContext = new APIContext(CLIENT_ID, CLIENT_SECRET, MODE);&#xD;
+ return Payment.get(apiContext, paymentId);&#xD;
+</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBjr8Om_Eeyl6rp8kebvXQ" name="executePayment" specification="_J5IIsOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBjr8em_Eeyl6rp8kebvXQ" name="paymentId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_KBjr8um_Eeyl6rp8kebvXQ" name="payerId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_KBjr8-m_Eeyl6rp8kebvXQ" type="_J-S8kOm_Eeyl6rp8kebvXQ" direction="return"/>
+        <language>java</language>
+        <body>PaymentExecution paymentExecution = new PaymentExecution();&#xD;
+ paymentExecution.setPayerId(payerId);&#xD;
+ &#xD;
+ Payment payment = new Payment().setId(paymentId);&#xD;
+ &#xD;
+ APIContext apiContext = new APIContext(CLIENT_ID, CLIENT_SECRET, MODE);&#xD;
+ &#xD;
+ return payment.execute(apiContext, paymentExecution);&#xD;
+</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_J4vHIOm_Eeyl6rp8kebvXQ" name="getPayerInformation" visibility="private" method="_KBhPsOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J-29QOm_Eeyl6rp8kebvXQ" type="_J-1IEOm_Eeyl6rp8kebvXQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J4w8UOm_Eeyl6rp8kebvXQ" name="getRedirectURLs" visibility="private" method="_KBh2wOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J-4LYem_Eeyl6rp8kebvXQ" type="_J-29Qem_Eeyl6rp8kebvXQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J4yxgOm_Eeyl6rp8kebvXQ" name="getPaymentDetails" method="_KBjE4Om_Eeyl6rp8kebvXQ" raisedException="_J-LAwem_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J4zYkOm_Eeyl6rp8kebvXQ" name="paymentId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_J-71wOm_Eeyl6rp8kebvXQ" type="_J-S8kOm_Eeyl6rp8kebvXQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J5IIsOm_Eeyl6rp8kebvXQ" name="executePayment" method="_KBjr8Om_Eeyl6rp8kebvXQ" raisedException="_J-LAwem_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J5IIsem_Eeyl6rp8kebvXQ" name="paymentId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_J5IIsum_Eeyl6rp8kebvXQ" name="payerId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_J-8c0Om_Eeyl6rp8kebvXQ" type="_J-S8kOm_Eeyl6rp8kebvXQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J-ZqQOm_Eeyl6rp8kebvXQ" name="authorizePayment" method="_KBfagOm_Eeyl6rp8kebvXQ" raisedException="_J-LAwem_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J-ZqQem_Eeyl6rp8kebvXQ" name="orderDetail" type="_J4hrwOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_J-aRUOm_Eeyl6rp8kebvXQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J-a4YOm_Eeyl6rp8kebvXQ" name="getTransactionInformation" visibility="private" method="_KBid0Om_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J-a4Yem_Eeyl6rp8kebvXQ" name="orderDetail" type="_J4hrwOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_J-bfcOm_Eeyl6rp8kebvXQ" type="_J-UKsem_Eeyl6rp8kebvXQ" isOrdered="true" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J-bfcem_Eeyl6rp8kebvXQ" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J-5ZgOm_Eeyl6rp8kebvXQ" name="getApprovalLink" visibility="private" method="_KBid1Om_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J-6noOm_Eeyl6rp8kebvXQ" name="approvedPayment" type="_J-S8kOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_J-7OsOm_Eeyl6rp8kebvXQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_J5RSoOm_Eeyl6rp8kebvXQ" name="ReviewPaymentServlet">
+      <ownedComment xmi:id="_KB3N8Om_Eeyl6rp8kebvXQ">
+        <body>Servlet implementation class ReviewPaymentServlet</body>
+      </ownedComment>
+      <generalization xmi:id="_J_gdgOm_Eeyl6rp8kebvXQ" general="_J-ETEOm_Eeyl6rp8kebvXQ"/>
+      <ownedAttribute xmi:id="_KAFFQOm_Eeyl6rp8kebvXQ" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_KAFFQem_Eeyl6rp8kebvXQ" value="1L"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBkTAOm_Eeyl6rp8kebvXQ" name="ReviewPaymentServlet" specification="_J5Tu4Om_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBkTAem_Eeyl6rp8kebvXQ" type="_J5RSoOm_Eeyl6rp8kebvXQ" direction="return"/>
+        <language>java</language>
+        <body>super();&#xD;
+     // TODO Auto-generated constructor stub&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBkTAum_Eeyl6rp8kebvXQ" name="doGet" specification="_J_daMOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBkTA-m_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_KBkTBOm_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        <language>java</language>
+        <body>String paymentId = request.getParameter(&quot;paymentId&quot;);&#xD;
+     String payerId = request.getParameter(&quot;PayerID&quot;);&#xD;
+      &#xD;
+     try {&#xD;
+         PaymentServices paymentServices = new PaymentServices();&#xD;
+         Payment payment = paymentServices.getPaymentDetails(paymentId);&#xD;
+          &#xD;
+         PayerInfo payerInfo = payment.getPayer().getPayerInfo();&#xD;
+         Transaction transaction = (Transaction) payment.getTransactions().get(0);&#xD;
+         ShippingAddress shippingAddress = ((CartBase) transaction).getItemList().getShippingAddress();&#xD;
+          &#xD;
+         request.setAttribute(&quot;payer&quot;, payerInfo);&#xD;
+         request.setAttribute(&quot;transaction&quot;, transaction);&#xD;
+         request.setAttribute(&quot;shippingAddress&quot;, shippingAddress);&#xD;
+          &#xD;
+         String url = &quot;review.jsp?paymentId=&quot; + paymentId + &quot;&amp;PayerID=&quot; + payerId;&#xD;
+          &#xD;
+         request.getRequestDispatcher(url).forward(request, response);&#xD;
+          &#xD;
+     } catch (PayPalRESTException ex) {&#xD;
+         request.setAttribute(&quot;errorMessage&quot;, ex.getMessage());&#xD;
+         ex.printStackTrace();&#xD;
+         request.getRequestDispatcher(&quot;error.jsp&quot;).forward(request, response);&#xD;
+     } &#xD;
+         &#xD;
+		&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_KBlhIOm_Eeyl6rp8kebvXQ" name="doPost" specification="_J_fPYOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_KBmvQOm_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_KBmvQem_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        <language>java</language>
+        <body>// TODO Auto-generated method stub&#xD;
+		doGet(request, response);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_J5Tu4Om_Eeyl6rp8kebvXQ" name="ReviewPaymentServlet" method="_KBkTAOm_Eeyl6rp8kebvXQ">
+        <eAnnotations xmi:id="_J5Tu4em_Eeyl6rp8kebvXQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_J5Tu4um_Eeyl6rp8kebvXQ" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_J5Tu4-m_Eeyl6rp8kebvXQ" type="_J5RSoOm_Eeyl6rp8kebvXQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J_daMOm_Eeyl6rp8kebvXQ" name="doGet" visibility="protected" method="_KBkTAum_Eeyl6rp8kebvXQ" raisedException="_J-B20Om_Eeyl6rp8kebvXQ _J93ewOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J_eBQOm_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_J_eBQem_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_J_fPYOm_Eeyl6rp8kebvXQ" name="doPost" visibility="protected" method="_KBlhIOm_Eeyl6rp8kebvXQ" raisedException="_J-B20Om_Eeyl6rp8kebvXQ _J93ewOm_Eeyl6rp8kebvXQ">
+        <ownedParameter xmi:id="_J_fPYem_Eeyl6rp8kebvXQ" name="request" type="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        <ownedParameter xmi:id="_J_f2cOm_Eeyl6rp8kebvXQ" name="response" type="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:id="_JXolMOm_Eeyl6rp8kebvXQ">
+      <eAnnotations xmi:id="_JXy9QOm_Eeyl6rp8kebvXQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_JYW98Om_Eeyl6rp8kebvXQ" base_Package="_IR_y0Om_Eeyl6rp8kebvXQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_J95T8Om_Eeyl6rp8kebvXQ" base_Element="_J93ewOm_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J97wMOm_Eeyl6rp8kebvXQ" base_Element="_J957AOm_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J99lYOm_Eeyl6rp8kebvXQ" base_Element="_J97wMem_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-ABoOm_Eeyl6rp8kebvXQ" base_Element="_J99lYem_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-BPwOm_Eeyl6rp8kebvXQ" base_Element="_J-AosOm_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-DE8Om_Eeyl6rp8kebvXQ" base_Element="_J-B20Om_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-FhMOm_Eeyl6rp8kebvXQ" base_Element="_J-ETEOm_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-HWYOm_Eeyl6rp8kebvXQ" base_Element="_J-GIQOm_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-JyoOm_Eeyl6rp8kebvXQ" base_Element="_J-IkgOm_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-LAwOm_Eeyl6rp8kebvXQ" base_Element="_J-Jyoem_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-M18Om_Eeyl6rp8kebvXQ" base_Element="_J-LAwem_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-SVgOm_Eeyl6rp8kebvXQ" base_Element="_J-P5QOm_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-UKsOm_Eeyl6rp8kebvXQ" base_Element="_J-S8kOm_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-V_4Om_Eeyl6rp8kebvXQ" base_Element="_J-UKsem_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-fw4Om_Eeyl6rp8kebvXQ" base_Element="_J-eiwOm_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-g_AOm_Eeyl6rp8kebvXQ" base_Element="_J-fw4em_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-2WMOm_Eeyl6rp8kebvXQ" base_Element="_J-1IEOm_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:Reference xmi:id="_J-4LYOm_Eeyl6rp8kebvXQ" base_Element="_J-29Qem_Eeyl6rp8kebvXQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_J_2bwOm_Eeyl6rp8kebvXQ" base_Element="_J_10sOm_Eeyl6rp8kebvXQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_J_44AOm_Eeyl6rp8kebvXQ" name="getSubtotal" method="_KBc-QOm_Eeyl6rp8kebvXQ">
+      <ownedParameter xmi:id="_J_5fEOm_Eeyl6rp8kebvXQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_J_6tMOm_Eeyl6rp8kebvXQ" base_Element="_J_6GIOm_Eeyl6rp8kebvXQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_J_7UQOm_Eeyl6rp8kebvXQ" name="getShipping" method="_KBdlUem_Eeyl6rp8kebvXQ">
+      <ownedParameter xmi:id="_J_77UOm_Eeyl6rp8kebvXQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_J_9wgOm_Eeyl6rp8kebvXQ" base_Element="_J_8iYOm_Eeyl6rp8kebvXQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_J_-XkOm_Eeyl6rp8kebvXQ" name="getTax" method="_KBeMYOm_Eeyl6rp8kebvXQ">
+      <ownedParameter xmi:id="_J_--oOm_Eeyl6rp8kebvXQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_J__lsem_Eeyl6rp8kebvXQ" base_Element="_J__lsOm_Eeyl6rp8kebvXQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_KAAMwOm_Eeyl6rp8kebvXQ" name="getTotal" method="_KBeMYum_Eeyl6rp8kebvXQ">
+      <ownedParameter xmi:id="_KAAz0Om_Eeyl6rp8kebvXQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <uml:OpaqueBehavior xmi:id="_KBc-QOm_Eeyl6rp8kebvXQ" name="getSubtotal" specification="_J_44AOm_Eeyl6rp8kebvXQ">
+    <ownedParameter xmi:id="_KBdlUOm_Eeyl6rp8kebvXQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return String.format(&quot;%.2f&quot;, subtotal);&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_KBdlUem_Eeyl6rp8kebvXQ" name="getShipping" specification="_J_7UQOm_Eeyl6rp8kebvXQ">
+    <ownedParameter xmi:id="_KBdlUum_Eeyl6rp8kebvXQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return String.format(&quot;%.2f&quot;, shipping);&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_KBeMYOm_Eeyl6rp8kebvXQ" name="getTax" specification="_J_-XkOm_Eeyl6rp8kebvXQ">
+    <ownedParameter xmi:id="_KBeMYem_Eeyl6rp8kebvXQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return String.format(&quot;%.2f&quot;, tax);&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_KBeMYum_Eeyl6rp8kebvXQ" name="getTotal" specification="_KAAMwOm_Eeyl6rp8kebvXQ">
+    <ownedParameter xmi:id="_KBeMY-m_Eeyl6rp8kebvXQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return String.format(&quot;%.2f&quot;, total);&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+</xmi:XMI>

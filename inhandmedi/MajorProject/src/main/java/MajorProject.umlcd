@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_IawGMOm_Eeyl6rp8kebvXQ">
+  <modelElement href="MajorProject.uml#_IR_y0Om_Eeyl6rp8kebvXQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_KSH3gOm_Eeyl6rp8kebvXQ" targetItem="_KSXIEOm_Eeyl6rp8kebvXQ" sourceItem="_KR_UoOm_Eeyl6rp8kebvXQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_KWfaIOm_Eeyl6rp8kebvXQ" targetItem="_KWmu4Om_Eeyl6rp8kebvXQ" sourceItem="_KWezEOm_Eeyl6rp8kebvXQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_KXoCkem_Eeyl6rp8kebvXQ" targetItem="_KXqe0Om_Eeyl6rp8kebvXQ" sourceItem="_KXoCkOm_Eeyl6rp8kebvXQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_KR_UoOm_Eeyl6rp8kebvXQ" sourceConnectionVisual="_KSH3gOm_Eeyl6rp8kebvXQ" text="Servlet implementation class AuthorizePaymentServle" item="_KSXIEOm_Eeyl6rp8kebvXQ">
+    <modelElement href="MajorProject.uml#_KBv5MOm_Eeyl6rp8kebvXQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_KWezEOm_Eeyl6rp8kebvXQ" sourceConnectionVisual="_KWfaIOm_Eeyl6rp8kebvXQ" text="Servlet implementation class ExecutePaymentServlet" item="_KWmu4Om_Eeyl6rp8kebvXQ">
+    <modelElement href="MajorProject.uml#_KBwgQOm_Eeyl6rp8kebvXQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_KXoCkOm_Eeyl6rp8kebvXQ" sourceConnectionVisual="_KXoCkem_Eeyl6rp8kebvXQ" text="Servlet implementation class ReviewPaymentServlet" item="_KXqe0Om_Eeyl6rp8kebvXQ">
+    <modelElement href="MajorProject.uml#_KB3N8Om_Eeyl6rp8kebvXQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_KSXIEOm_Eeyl6rp8kebvXQ" comments="_KR_UoOm_Eeyl6rp8kebvXQ" targetConnectionVisual="_KSH3gOm_Eeyl6rp8kebvXQ" name="AuthorizePaymentServle">
+    <modelElement href="MajorProject.uml#_J30hIOm_Eeyl6rp8kebvXQ"/>
+    <visualProperties xmi:id="_KSXvIOm_Eeyl6rp8kebvXQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_KSXvIem_Eeyl6rp8kebvXQ" label="+"/>
+    <attributes xmi:id="_KSXvIum_Eeyl6rp8kebvXQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="MajorProject.uml#_J_jg0Om_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KSXvI-m_Eeyl6rp8kebvXQ" label="-"/>
+      <cardinality xmi:id="_KSXvJOm_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <type xmi:id="_KSXvJem_Eeyl6rp8kebvXQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_KSXvJum_Eeyl6rp8kebvXQ" name="AuthorizePaymentServle">
+      <modelElement href="MajorProject.uml#_J4AHUOm_Eeyl6rp8kebvXQ"/>
+      <keywords xmi:id="_KSXvJ-m_Eeyl6rp8kebvXQ" keyword="create"/>
+      <visibility xmi:id="_KSXvKOm_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KSXvKem_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KSXvKum_Eeyl6rp8kebvXQ">
+        <modelElement href="MajorProject.uml#_J4KfYOm_Eeyl6rp8kebvXQ"/>
+        <type xmi:id="_KSXvK-m_Eeyl6rp8kebvXQ" name="AuthorizePaymentServle">
+          <modelElement href="MajorProject.uml#_J30hIOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_KSXvLOm_Eeyl6rp8kebvXQ" name="doGet">
+      <modelElement href="MajorProject.uml#_J-r-IOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KSXvLem_Eeyl6rp8kebvXQ" label="#"/>
+      <cardinality xmi:id="_KSXvLum_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KSXvL-m_Eeyl6rp8kebvXQ" name="request">
+        <modelElement href="MajorProject.uml#_J-r-Iem_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KSXvMOm_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KSXvMem_Eeyl6rp8kebvXQ" name="HttpServletRequest">
+          <modelElement href="MajorProject.uml#_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_KSXvMum_Eeyl6rp8kebvXQ" name="response">
+        <modelElement href="MajorProject.uml#_J-r-Ium_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KSXvM-m_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KSXvNOm_Eeyl6rp8kebvXQ" name="HttpServletResponse">
+          <modelElement href="MajorProject.uml#_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KSXvNem_Eeyl6rp8kebvXQ" name="doPost">
+      <modelElement href="MajorProject.uml#_J-tzUOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KSXvNum_Eeyl6rp8kebvXQ" label="#"/>
+      <cardinality xmi:id="_KSXvN-m_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KSXvOOm_Eeyl6rp8kebvXQ" name="request">
+        <modelElement href="MajorProject.uml#_J-uaYOm_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KSXvOem_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KSXvOum_Eeyl6rp8kebvXQ" name="HttpServletRequest">
+          <modelElement href="MajorProject.uml#_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_KSXvO-m_Eeyl6rp8kebvXQ" name="response">
+        <modelElement href="MajorProject.uml#_J-uaYem_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KSXvPOm_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KSXvPem_Eeyl6rp8kebvXQ" name="HttpServletResponse">
+          <modelElement href="MajorProject.uml#_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_KWR-wOm_Eeyl6rp8kebvXQ" name="ServletException">
+    <modelElement href="MajorProject.uml#_J-B20Om_Eeyl6rp8kebvXQ"/>
+    <visualProperties xmi:id="_KWSl0Om_Eeyl6rp8kebvXQ" position="524.0,104.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_KWSl0em_Eeyl6rp8kebvXQ" name="Reference">
+      <modelElement href="MajorProject.uml#_J-DE8Om_Eeyl6rp8kebvXQ"/>
+    </stereotypes>
+    <visibility xmi:id="_KWSl0um_Eeyl6rp8kebvXQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_KWZ6kOm_Eeyl6rp8kebvXQ" name="IOException">
+    <modelElement href="MajorProject.uml#_J93ewOm_Eeyl6rp8kebvXQ"/>
+    <visualProperties xmi:id="_KWZ6kem_Eeyl6rp8kebvXQ" position="-114.0,104.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_KWZ6kum_Eeyl6rp8kebvXQ" name="Reference">
+      <modelElement href="MajorProject.uml#_J95T8Om_Eeyl6rp8kebvXQ"/>
+    </stereotypes>
+    <visibility xmi:id="_KWZ6k-m_Eeyl6rp8kebvXQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_KWmu4Om_Eeyl6rp8kebvXQ" comments="_KWezEOm_Eeyl6rp8kebvXQ" targetConnectionVisual="_KWfaIOm_Eeyl6rp8kebvXQ" name="ExecutePaymentServlet">
+    <modelElement href="MajorProject.uml#_J4WFkOm_Eeyl6rp8kebvXQ"/>
+    <visualProperties xmi:id="_KWmu4em_Eeyl6rp8kebvXQ" position="-614.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_KWmu4um_Eeyl6rp8kebvXQ" label="+"/>
+    <attributes xmi:id="_KWmu4-m_Eeyl6rp8kebvXQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="MajorProject.uml#_J_ku8Om_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KWmu5Om_Eeyl6rp8kebvXQ" label="-"/>
+      <cardinality xmi:id="_KWmu5em_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <type xmi:id="_KWmu5um_Eeyl6rp8kebvXQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_KWmu5-m_Eeyl6rp8kebvXQ" name="ExecutePaymentServlet">
+      <modelElement href="MajorProject.uml#_J4X6wOm_Eeyl6rp8kebvXQ"/>
+      <keywords xmi:id="_KWmu6Om_Eeyl6rp8kebvXQ" keyword="create"/>
+      <visibility xmi:id="_KWmu6em_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KWmu6um_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KWmu6-m_Eeyl6rp8kebvXQ">
+        <modelElement href="MajorProject.uml#_J4Zv8um_Eeyl6rp8kebvXQ"/>
+        <type xmi:id="_KWmu7Om_Eeyl6rp8kebvXQ" name="ExecutePaymentServlet">
+          <modelElement href="MajorProject.uml#_J4WFkOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_KWmu7em_Eeyl6rp8kebvXQ" name="doGet">
+      <modelElement href="MajorProject.uml#_J-w2oOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KWmu7um_Eeyl6rp8kebvXQ" label="#"/>
+      <cardinality xmi:id="_KWmu7-m_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KWmu8Om_Eeyl6rp8kebvXQ" name="request">
+        <modelElement href="MajorProject.uml#_J-xdsOm_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KWmu8em_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KWmu8um_Eeyl6rp8kebvXQ" name="HttpServletRequest">
+          <modelElement href="MajorProject.uml#_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_KWmu8-m_Eeyl6rp8kebvXQ" name="response">
+        <modelElement href="MajorProject.uml#_J-xdsem_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KWmu9Om_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KWmu9em_Eeyl6rp8kebvXQ" name="HttpServletResponse">
+          <modelElement href="MajorProject.uml#_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KWmu9um_Eeyl6rp8kebvXQ" name="doPost">
+      <modelElement href="MajorProject.uml#_J-yEwOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KWmu9-m_Eeyl6rp8kebvXQ" label="#"/>
+      <cardinality xmi:id="_KWmu-Om_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KWmu-em_Eeyl6rp8kebvXQ" name="request">
+        <modelElement href="MajorProject.uml#_J-yEwem_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KWmu-um_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KWnV8Om_Eeyl6rp8kebvXQ" name="HttpServletRequest">
+          <modelElement href="MajorProject.uml#_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_KWnV8em_Eeyl6rp8kebvXQ" name="response">
+        <modelElement href="MajorProject.uml#_J-yr0Om_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KWnV8um_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KWnV8-m_Eeyl6rp8kebvXQ" name="HttpServletResponse">
+          <modelElement href="MajorProject.uml#_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_KXKIgOm_Eeyl6rp8kebvXQ" name="PaymentServices">
+    <modelElement href="MajorProject.uml#_J4q1sOm_Eeyl6rp8kebvXQ"/>
+    <visualProperties xmi:id="_KXKIgem_Eeyl6rp8kebvXQ" position="-1125.0,-84.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_KXKIgum_Eeyl6rp8kebvXQ" label="+"/>
+    <attributes xmi:id="_KXKIg-m_Eeyl6rp8kebvXQ" defaultValue="&quot;Ab4EVKRcyXzFLKFfDFMh0kwqHp6hlZ-PNM47VKa0bT6_BchGGfGZgBvcexTGEnUNms3LW_Q0ysBaHyt5&quot;" name="CLIENT_ID" staticAttribute="true">
+      <modelElement href="MajorProject.uml#_KACB8Om_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXKIhOm_Eeyl6rp8kebvXQ" label="-"/>
+      <cardinality xmi:id="_KXKIhem_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <type xmi:id="_KXKIhum_Eeyl6rp8kebvXQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_KXKIh-m_Eeyl6rp8kebvXQ" defaultValue="&quot;EJ6C11w-7uzsoW4eHQHqCPfHfHeIJMymuiFYLe0Ly3mIwKYJjJRcyth0v7f36KbYaKWTuEBcvEZ5ayI0&quot;" name="CLIENT_SECRET" staticAttribute="true">
+      <modelElement href="MajorProject.uml#_KADQEOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXKIiOm_Eeyl6rp8kebvXQ" label="-"/>
+      <cardinality xmi:id="_KXKIiem_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <type xmi:id="_KXKIium_Eeyl6rp8kebvXQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_KXKIi-m_Eeyl6rp8kebvXQ" defaultValue="&quot;sandbox&quot;" name="MODE" staticAttribute="true">
+      <modelElement href="MajorProject.uml#_KAD3IOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXKIjOm_Eeyl6rp8kebvXQ" label="-"/>
+      <cardinality xmi:id="_KXKIjem_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <type xmi:id="_KXKIjum_Eeyl6rp8kebvXQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_KXKIj-m_Eeyl6rp8kebvXQ" name="getPayerInformation">
+      <modelElement href="MajorProject.uml#_J4vHIOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXKIkOm_Eeyl6rp8kebvXQ" label="-"/>
+      <cardinality xmi:id="_KXKIkem_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KXKIkum_Eeyl6rp8kebvXQ">
+        <modelElement href="MajorProject.uml#_J-29QOm_Eeyl6rp8kebvXQ"/>
+        <type xmi:id="_KXKIk-m_Eeyl6rp8kebvXQ" name="Payer">
+          <modelElement href="MajorProject.uml#_J-1IEOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_KXKIlOm_Eeyl6rp8kebvXQ" name="getRedirectURLs">
+      <modelElement href="MajorProject.uml#_J4w8UOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXKIlem_Eeyl6rp8kebvXQ" label="-"/>
+      <cardinality xmi:id="_KXKIlum_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KXKIl-m_Eeyl6rp8kebvXQ">
+        <modelElement href="MajorProject.uml#_J-4LYem_Eeyl6rp8kebvXQ"/>
+        <type xmi:id="_KXKImOm_Eeyl6rp8kebvXQ" name="RedirectUrls">
+          <modelElement href="MajorProject.uml#_J-29Qem_Eeyl6rp8kebvXQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_KXKImem_Eeyl6rp8kebvXQ" name="getPaymentDetails">
+      <modelElement href="MajorProject.uml#_J4yxgOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXKImum_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KXKIm-m_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KXKInOm_Eeyl6rp8kebvXQ">
+        <modelElement href="MajorProject.uml#_J-71wOm_Eeyl6rp8kebvXQ"/>
+        <type xmi:id="_KXKInem_Eeyl6rp8kebvXQ" name="Payment">
+          <modelElement href="MajorProject.uml#_J-S8kOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_KXKInum_Eeyl6rp8kebvXQ" name="paymentId">
+        <modelElement href="MajorProject.uml#_J4zYkOm_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KXKIn-m_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KXKIoOm_Eeyl6rp8kebvXQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KXKIoem_Eeyl6rp8kebvXQ" name="executePayment">
+      <modelElement href="MajorProject.uml#_J5IIsOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXKIoum_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KXKIo-m_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KXKIpOm_Eeyl6rp8kebvXQ">
+        <modelElement href="MajorProject.uml#_J-8c0Om_Eeyl6rp8kebvXQ"/>
+        <type xmi:id="_KXKIpem_Eeyl6rp8kebvXQ" name="Payment">
+          <modelElement href="MajorProject.uml#_J-S8kOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_KXKIpum_Eeyl6rp8kebvXQ" name="paymentId">
+        <modelElement href="MajorProject.uml#_J5IIsem_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KXKIp-m_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KXKIqOm_Eeyl6rp8kebvXQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_KXKIqem_Eeyl6rp8kebvXQ" name="payerId">
+        <modelElement href="MajorProject.uml#_J5IIsum_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KXKIqum_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KXKIq-m_Eeyl6rp8kebvXQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KXKIrOm_Eeyl6rp8kebvXQ" name="authorizePayment">
+      <modelElement href="MajorProject.uml#_J-ZqQOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXKIrem_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KXKIrum_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KXKIr-m_Eeyl6rp8kebvXQ">
+        <modelElement href="MajorProject.uml#_J-aRUOm_Eeyl6rp8kebvXQ"/>
+        <type xmi:id="_KXKIsOm_Eeyl6rp8kebvXQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_KXKIsem_Eeyl6rp8kebvXQ" name="orderDetail">
+        <modelElement href="MajorProject.uml#_J-ZqQem_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KXKIsum_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KXKIs-m_Eeyl6rp8kebvXQ" name="OrderDetail">
+          <modelElement href="MajorProject.uml#_J4hrwOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KXKItOm_Eeyl6rp8kebvXQ" name="getTransactionInformation">
+      <modelElement href="MajorProject.uml#_J-a4YOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXKItem_Eeyl6rp8kebvXQ" label="-"/>
+      <cardinality xmi:id="_KXKItum_Eeyl6rp8kebvXQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_KXKIt-m_Eeyl6rp8kebvXQ">
+        <modelElement href="MajorProject.uml#_J-bfcOm_Eeyl6rp8kebvXQ"/>
+        <type xmi:id="_KXKIuOm_Eeyl6rp8kebvXQ" name="Transaction">
+          <modelElement href="MajorProject.uml#_J-UKsem_Eeyl6rp8kebvXQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_KXKIuem_Eeyl6rp8kebvXQ" name="orderDetail">
+        <modelElement href="MajorProject.uml#_J-a4Yem_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KXKIuum_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KXKIu-m_Eeyl6rp8kebvXQ" name="OrderDetail">
+          <modelElement href="MajorProject.uml#_J4hrwOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KXKIvOm_Eeyl6rp8kebvXQ" name="getApprovalLink">
+      <modelElement href="MajorProject.uml#_J-5ZgOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXKIvem_Eeyl6rp8kebvXQ" label="-"/>
+      <cardinality xmi:id="_KXKIvum_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KXKIv-m_Eeyl6rp8kebvXQ">
+        <modelElement href="MajorProject.uml#_J-7OsOm_Eeyl6rp8kebvXQ"/>
+        <type xmi:id="_KXKIwOm_Eeyl6rp8kebvXQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_KXKIwem_Eeyl6rp8kebvXQ" name="approvedPayment">
+        <modelElement href="MajorProject.uml#_J-6noOm_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KXKIwum_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KXKIw-m_Eeyl6rp8kebvXQ" name="Payment">
+          <modelElement href="MajorProject.uml#_J-S8kOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_KXqe0Om_Eeyl6rp8kebvXQ" comments="_KXoCkOm_Eeyl6rp8kebvXQ" targetConnectionVisual="_KXoCkem_Eeyl6rp8kebvXQ" name="ReviewPaymentServlet">
+    <modelElement href="MajorProject.uml#_J5RSoOm_Eeyl6rp8kebvXQ"/>
+    <visualProperties xmi:id="_KXqe0em_Eeyl6rp8kebvXQ" position="1626.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_KXqe0um_Eeyl6rp8kebvXQ" label="+"/>
+    <attributes xmi:id="_KXqe0-m_Eeyl6rp8kebvXQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="MajorProject.uml#_KAFFQOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXqe1Om_Eeyl6rp8kebvXQ" label="-"/>
+      <cardinality xmi:id="_KXqe1em_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <type xmi:id="_KXqe1um_Eeyl6rp8kebvXQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_KXqe1-m_Eeyl6rp8kebvXQ" name="ReviewPaymentServlet">
+      <modelElement href="MajorProject.uml#_J5Tu4Om_Eeyl6rp8kebvXQ"/>
+      <keywords xmi:id="_KXqe2Om_Eeyl6rp8kebvXQ" keyword="create"/>
+      <visibility xmi:id="_KXqe2em_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KXqe2um_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KXqe2-m_Eeyl6rp8kebvXQ">
+        <modelElement href="MajorProject.uml#_J5Tu4-m_Eeyl6rp8kebvXQ"/>
+        <type xmi:id="_KXqe3Om_Eeyl6rp8kebvXQ" name="ReviewPaymentServlet">
+          <modelElement href="MajorProject.uml#_J5RSoOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_KXqe3em_Eeyl6rp8kebvXQ" name="doGet">
+      <modelElement href="MajorProject.uml#_J_daMOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXqe3um_Eeyl6rp8kebvXQ" label="#"/>
+      <cardinality xmi:id="_KXqe3-m_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KXqe4Om_Eeyl6rp8kebvXQ" name="request">
+        <modelElement href="MajorProject.uml#_J_eBQOm_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KXqe4em_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KXqe4um_Eeyl6rp8kebvXQ" name="HttpServletRequest">
+          <modelElement href="MajorProject.uml#_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_KXqe4-m_Eeyl6rp8kebvXQ" name="response">
+        <modelElement href="MajorProject.uml#_J_eBQem_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KXqe5Om_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KXqe5em_Eeyl6rp8kebvXQ" name="HttpServletResponse">
+          <modelElement href="MajorProject.uml#_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KXqe5um_Eeyl6rp8kebvXQ" name="doPost">
+      <modelElement href="MajorProject.uml#_J_fPYOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KXqe5-m_Eeyl6rp8kebvXQ" label="#"/>
+      <cardinality xmi:id="_KXqe6Om_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KXqe6em_Eeyl6rp8kebvXQ" name="request">
+        <modelElement href="MajorProject.uml#_J_fPYem_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KXqe6um_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KXqe6-m_Eeyl6rp8kebvXQ" name="HttpServletRequest">
+          <modelElement href="MajorProject.uml#_J-GIQOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_KXqe7Om_Eeyl6rp8kebvXQ" name="response">
+        <modelElement href="MajorProject.uml#_J_f2cOm_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KXqe7em_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KXqe7um_Eeyl6rp8kebvXQ" name="HttpServletResponse">
+          <modelElement href="MajorProject.uml#_J-IkgOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_KXjxIOm_Eeyl6rp8kebvXQ" name="PayPalRESTException">
+    <modelElement href="MajorProject.uml#_J-LAwem_Eeyl6rp8kebvXQ"/>
+    <visualProperties xmi:id="_KXjxIem_Eeyl6rp8kebvXQ" position="1428.0,104.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_KXjxIum_Eeyl6rp8kebvXQ" name="Reference">
+      <modelElement href="MajorProject.uml#_J-M18Om_Eeyl6rp8kebvXQ"/>
+    </stereotypes>
+    <visibility xmi:id="_KXjxI-m_Eeyl6rp8kebvXQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_KW3NkOm_Eeyl6rp8kebvXQ" name="OrderDetail">
+    <modelElement href="MajorProject.uml#_J4hrwOm_Eeyl6rp8kebvXQ"/>
+    <visualProperties xmi:id="_KW3Nkem_Eeyl6rp8kebvXQ" position="718.0,-8.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_KW3Nkum_Eeyl6rp8kebvXQ" label="+"/>
+    <attributes xmi:id="_KW3Nk-m_Eeyl6rp8kebvXQ" name="productName">
+      <modelElement href="MajorProject.uml#_J_mkIOm_Eeyl6rp8kebvXQ"/>
+      <visibility xmi:id="_KW3NlOm_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KW3Nlem_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <type xmi:id="_KW3Nlum_Eeyl6rp8kebvXQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_KW3Nl-m_Eeyl6rp8kebvXQ" name="subtotal">
+      <modelElement href="MajorProject.uml#_J_10sOm_Eeyl6rp8kebvXQ"/>
+      <stereotypes xmi:id="_KW3NmOm_Eeyl6rp8kebvXQ" name="LegacyStyledElement">
+        <modelElement href="MajorProject.uml#_J_2bwOm_Eeyl6rp8kebvXQ"/>
+      </stereotypes>
+      <visibility xmi:id="_KW3Nmem_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KW3Nmum_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <type xmi:id="_KW3Nm-m_Eeyl6rp8kebvXQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_KW3NnOm_Eeyl6rp8kebvXQ" name="shipping">
+      <modelElement href="MajorProject.uml#_J_6GIOm_Eeyl6rp8kebvXQ"/>
+      <stereotypes xmi:id="_KW3Nnem_Eeyl6rp8kebvXQ" name="LegacyStyledElement">
+        <modelElement href="MajorProject.uml#_J_6tMOm_Eeyl6rp8kebvXQ"/>
+      </stereotypes>
+      <visibility xmi:id="_KW3Nnum_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KW3Nn-m_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <type xmi:id="_KW3NoOm_Eeyl6rp8kebvXQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_KW3Noem_Eeyl6rp8kebvXQ" name="tax">
+      <modelElement href="MajorProject.uml#_J_8iYOm_Eeyl6rp8kebvXQ"/>
+      <stereotypes xmi:id="_KW3Noum_Eeyl6rp8kebvXQ" name="LegacyStyledElement">
+        <modelElement href="MajorProject.uml#_J_9wgOm_Eeyl6rp8kebvXQ"/>
+      </stereotypes>
+      <visibility xmi:id="_KW3No-m_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KW3NpOm_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <type xmi:id="_KW3Npem_Eeyl6rp8kebvXQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_KW3Npum_Eeyl6rp8kebvXQ" name="total">
+      <modelElement href="MajorProject.uml#_J__lsOm_Eeyl6rp8kebvXQ"/>
+      <stereotypes xmi:id="_KW3Np-m_Eeyl6rp8kebvXQ" name="LegacyStyledElement">
+        <modelElement href="MajorProject.uml#_J__lsem_Eeyl6rp8kebvXQ"/>
+      </stereotypes>
+      <visibility xmi:id="_KW3NqOm_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KW3Nqem_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <type xmi:id="_KW3Nqum_Eeyl6rp8kebvXQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_KW3Nq-m_Eeyl6rp8kebvXQ" name="OrderDetail">
+      <modelElement href="MajorProject.uml#_J4mkQOm_Eeyl6rp8kebvXQ"/>
+      <keywords xmi:id="_KW3NrOm_Eeyl6rp8kebvXQ" keyword="create"/>
+      <visibility xmi:id="_KW3Nrem_Eeyl6rp8kebvXQ" label="+"/>
+      <cardinality xmi:id="_KW3Nrum_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KW3Nr-m_Eeyl6rp8kebvXQ">
+        <modelElement href="MajorProject.uml#_J4nyYem_Eeyl6rp8kebvXQ"/>
+        <type xmi:id="_KW3NsOm_Eeyl6rp8kebvXQ" name="OrderDetail">
+          <modelElement href="MajorProject.uml#_J4hrwOm_Eeyl6rp8kebvXQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_KW3Nsem_Eeyl6rp8kebvXQ" name="productName">
+        <modelElement href="MajorProject.uml#_J4mkQem_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KW30oOm_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KW30oem_Eeyl6rp8kebvXQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_KW30oum_Eeyl6rp8kebvXQ" name="subtotal">
+        <modelElement href="MajorProject.uml#_J4nLUOm_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KW30o-m_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KW30pOm_Eeyl6rp8kebvXQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_KW30pem_Eeyl6rp8kebvXQ" name="shipping">
+        <modelElement href="MajorProject.uml#_J4nLUem_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KW30pum_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KW30p-m_Eeyl6rp8kebvXQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_KW30qOm_Eeyl6rp8kebvXQ" name="tax">
+        <modelElement href="MajorProject.uml#_J4nLUum_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KW30qem_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KW30qum_Eeyl6rp8kebvXQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_KW30q-m_Eeyl6rp8kebvXQ" name="total">
+        <modelElement href="MajorProject.uml#_J4nLU-m_Eeyl6rp8kebvXQ"/>
+        <cardinality xmi:id="_KW30rOm_Eeyl6rp8kebvXQ" label="1" max="1" min="1"/>
+        <type xmi:id="_KW30rem_Eeyl6rp8kebvXQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
